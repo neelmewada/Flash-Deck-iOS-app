@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "packName": "Swift Language",
+        "iconName": "swift-icon",
+        "packDescription": "A set of cards to help you get acquainted with Swift Programming Language",
+        "cards": [
+            {
+                "id": 101,
+                "cardPack": 0,
+                "name": "variable syntax",
+                "question": "The syntax of defining a variable in swift",
+                "answer": "var myVar: String"
+            },
+            {
+                "id": 102,
+                "cardPack": 0,
+                "name": "swift extension",
+                "question": "What's the extension of swift code file?",
+                "answer": ".swift"
+            },
+            {
+                "id": 103,
+                "cardPack": 0,
+                "name": "reference and value types",
+                "question": "What are the reference types and value types in swift?",
+                "answer": "struct: value types\nclass: reference types"
+            },
+            {
+                "id": 104,
+                "cardPack": 0,
+                "name": "test question",
+                "question": "Test Question",
+                "answer": "Test Answer"
+            },
+            {
+                "id": 105,
+                "cardPack": 0,
+                "name": "test question",
+                "question": "Test Question",
+                "answer": "Test Answer"
+            },
+        ]
+    },
+    {
+        "id": 2,
+        "packName": "General Knowledge",
+        "iconName": "gk-icon",
+        "packDescription": "A set of cards about General Knowledge Questions",
+        "cards": [
+            {
+                "id": 101,
+                "cardPack": 1,
+                "name": "president of usa",
+                "question": "Who's the president of USA?",
+                "answer": "Joe Biden"
+            },
+            {
+                "id": 102,
+                "cardPack": 1,
+                "name": "largest city",
+                "question": "Which is the largest city in the world?",
+                "answer": "Tokyo"
+            },
+            {
+                "id": 103,
+                "cardPack": 1,
+                "name": "smallest country",
+                "question": "Which is the smallest country in the world?",
+                "answer": "Vatical City"
+            },
+            {
+                "id": 104,
+                "cardPack": 1,
+                "name": "amsterdam country",
+                "question": "Which country is Amsterdam located in?",
+                "answer": "Netherlands"
+            },
+            {
+                "id": 105,
+                "cardPack": 1,
+                "name": "alberta's country",
+                "question": "Alberta is a province of which country?",
+                "answer": "Canada"
+            },
+        ]
+    },
+]
