@@ -6,15 +6,14 @@
 //
 
 import SwiftUI
+
 import Firebase
+import FirebaseFirestore
+import FirebaseFirestoreSwift
 
 @main
 struct Flash_DeckApp: App {
     @StateObject private var modelData = ModelData()
-    
-    init() {
-        FirebaseApp.configure()
-    }
     
     var body: some Scene {
         WindowGroup {

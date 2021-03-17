@@ -43,7 +43,7 @@ struct ScrollingHStackModifier: ViewModifier {
             .offset(x: scrollOffset + dragOffset, y: 0)
             .gesture(DragGesture()
                 .onChanged({ event in
-                    dragOffset = event.translation.width * 2.0
+                    dragOffset = event.translation.width * 1.5
                     
                     // Now calculate which item to snap to
                     let contentWidth: CGFloat = CGFloat(items) * itemWidth + CGFloat(items - 1) * itemSpacing
@@ -71,7 +71,7 @@ struct ScrollingHStackModifier: ViewModifier {
                 })
                 .onEnded({ event in
                     // Scroll to where user dragged
-                    scrollOffset += event.translation.width * 2.0
+                    scrollOffset += event.translation.width * 1.5
                     dragOffset = 0
                     
                     // Now calculate which item to snap to
