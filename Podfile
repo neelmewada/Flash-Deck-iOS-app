@@ -11,5 +11,10 @@ target 'Flash Deck' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'FirebaseFirestoreSwift'
+  
+  pod 'Firebase/Storage'
+  pod 'FirebaseUI/Storage'
+  
+  pod 'SDWebImageSwiftUI'
 
 end

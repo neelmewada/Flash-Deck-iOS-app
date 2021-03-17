@@ -51,7 +51,7 @@ struct FlashCardMainView: View {
             
             Spacer()
             HStack {
-                CardCounter()
+                CardCounter(cardPackIndex: cardPackIndex)
                 Spacer()
                 
                 Button(action: {

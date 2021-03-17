@@ -31,10 +31,10 @@
 		5671DDE025F78A8300F36448 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5671DDDF25F78A8300F36448 /* ContentView.swift */; };
 		5671DDE225F78A8500F36448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5671DDE125F78A8500F36448 /* Assets.xcassets */; };
 		5671DDE525F78A8500F36448 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5671DDE425F78A8500F36448 /* Preview Assets.xcassets */; };
-		56A5A6F325FD1A0400BCFE9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A5A6F225FD1A0400BCFE9B /* GoogleService-Info.plist */; };
 		56A5A6F725FD1DA100BCFE9B /* BurgerMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A5A6F625FD1DA100BCFE9B /* BurgerMenuView.swift */; };
 		56EF536125FC773A000029E0 /* FlashCardMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EF536025FC773A000029E0 /* FlashCardMainView.swift */; };
 		56EF536425FC7C8D000029E0 /* CardPackItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EF536325FC7C8D000029E0 /* CardPackItemView.swift */; };
+		56F7E7742601C8240072F7A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56F7E7732601C8240072F7A1 /* GoogleService-Info.plist */; };
 		79514CF1BD176DB31C50AB18 /* Pods_Flash_Deck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA18678BEE0FABCEED75E0A /* Pods_Flash_Deck.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,10 +66,10 @@
 		5671DDE125F78A8500F36448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5671DDE425F78A8500F36448 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5671DDE625F78A8500F36448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56A5A6F225FD1A0400BCFE9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		56A5A6F625FD1DA100BCFE9B /* BurgerMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerMenuView.swift; sourceTree = "<group>"; };
 		56EF536025FC773A000029E0 /* FlashCardMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardMainView.swift; sourceTree = "<group>"; };
 		56EF536325FC7C8D000029E0 /* CardPackItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPackItemView.swift; sourceTree = "<group>"; };
+		56F7E7732601C8240072F7A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8AA18678BEE0FABCEED75E0A /* Pods_Flash_Deck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Deck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBB6937360167B962E3D6B7 /* Pods-Flash Deck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Deck.release.xcconfig"; path = "Target Support Files/Pods-Flash Deck/Pods-Flash Deck.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,7 +199,7 @@
 				5671DDDD25F78A8300F36448 /* Flash_DeckApp.swift */,
 				5671DDE125F78A8500F36448 /* Assets.xcassets */,
 				5671DDE625F78A8500F36448 /* Info.plist */,
-				56A5A6F225FD1A0400BCFE9B /* GoogleService-Info.plist */,
+				56F7E7732601C8240072F7A1 /* GoogleService-Info.plist */,
 				5671DDE325F78A8500F36448 /* Preview Content */,
 			);
 			path = "Flash Deck";
@@ -301,7 +301,7 @@
 				5671DDE525F78A8500F36448 /* Preview Assets.xcassets in Resources */,
 				5671DDE225F78A8500F36448 /* Assets.xcassets in Resources */,
 				56639CD625F7B70D00EA51E5 /* Lato-Thin.ttf in Resources */,
-				56A5A6F325FD1A0400BCFE9B /* GoogleService-Info.plist in Resources */,
+				56F7E7742601C8240072F7A1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,7 +36,7 @@ struct FlashCardList: View {
             .padding(0)
         }
         .modifier(ScrollingHStackModifier(
-            items: modelData.cardPacks[modelData.curCardPackIndex].cards.count, itemWidth: 330, itemSpacing: 5, modelData: self.modelData
+            items: modelData.cardPacks[cardPackIndex].cards.count, itemWidth: 330, itemSpacing: 5, modelData: self.modelData
         ))
     }
 }

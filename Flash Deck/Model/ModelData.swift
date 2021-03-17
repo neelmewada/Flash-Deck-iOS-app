@@ -13,6 +13,8 @@ import Firebase
 import FirebaseFirestore
 import FirebaseFirestoreSwift
 
+
+
 final class ModelData: ObservableObject {
     @Published var cardPacks: [FlashCardPack] = []
     
@@ -21,14 +23,17 @@ final class ModelData: ObservableObject {
     @Published var curIndexGlobal: Int = 0
     
     public static var db: Firestore? = nil
+    public static var storage: Storage? = nil
     
     init() {
         FirebaseApp.configure()
         self.loadData()
     }
     
+    // Loads flash card packs from Firebase
     public func loadData() -> Void {
         Self.db = Firestore.firestore()
+        Self.storage = Storage.storage()
         //self.cardPacks = load("cardsData.json")
         var i = 0
         
@@ -48,13 +53,11 @@ final class ModelData: ObservableObject {
                     
                     cardsRef.getDocument { (cardsDoc, error) in
                         if let cardsDoc = cardsDoc, cardsDoc.exists {
-                            let dataDescription = cardsDoc.data().map(String.init(describing:)) ?? "nil"
                             guard let dict = cardsDoc.data() else {
                                 print("Dict Failed!!!")
                                 return
                             }
                             let cardsArray = dict["cards"] as! [[String: Any]]
-                            print("Document data: \(cardsArray[0]["name"] ?? "ERROR")")
                             for cardInfo in cardsArray {
                                 let id = cardInfo["id"] as! Int
                                 let name = cardInfo["name"] as! String
@@ -64,7 +67,7 @@ final class ModelData: ObservableObject {
                             }
                             self.cardPacks.append(cardPack)
                         } else {
-                            print("Document does not exist")
+                            print("[Firebase Error] Document does not exist")
                         }
                     }
                     
