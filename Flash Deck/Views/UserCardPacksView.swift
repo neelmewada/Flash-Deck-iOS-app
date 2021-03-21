@@ -30,12 +30,13 @@ struct UserCardPacksView: View {
             .padding(.trailing, 25)
             .padding(.bottom, 25)
             .frame(width: UIScreen.main.bounds.width * 0.92, height: 0)
+            let screenWidth: CGFloat = 400.0
             
             ScrollView(.vertical) {
                 LazyVStack {
                     ForEach(0..<modelData.cardPacks.count, id: \.self) { i in
                         NavigationLink(destination: FlashCardMainView(cardPackIndex: i)) {
-                            CardPackItemView(cardPackIndex: i)
+                            CardPackItemView(cardPackIndex: i, width: screenWidth)
                                 .padding(.bottom, 40)
                                 .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.05), radius: 30, x: 0, y: 10)
                         }

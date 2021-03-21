@@ -10,42 +10,46 @@ import SwiftUI
 struct CardPackItemView: View {
     @EnvironmentObject var modelData: ModelData
     var cardPackIndex: Int
+    var width: CGFloat = 400
     
     var body: some View {
-        let screenWidth = UIScreen.main.bounds.width
-        
-        ZStack {
-            Rectangle()
-                .foregroundColor(.white)
-                .frame(width: screenWidth * 0.9, height: 157)
-            
-            HStack {
-                VStack {
-                    modelData.cardPacks[cardPackIndex].icon
-                        .resizable()
-                        .frame(width: 48, height: 48)
-                }
-                .frame(width: 82)
+        GeometryReader { geometry in
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.white)
+                    .frame(width: 400, height: 157)
                 
-                Divider()
-                    .background(Color(hex: "f5f5f5"))
-                    .opacity(1.0)
-                
-                VStack(alignment: .leading) {
-                    Text("\(modelData.cardPacks[cardPackIndex].packName)")
-                        .padding(.bottom, 10)
-                        .font(.custom("Lato-Bold", size: 20))
-                        .foregroundColor(Color(hex: "373737"))
+                HStack {
+                    VStack {
+                        modelData.cardPacks[cardPackIndex].icon
+                            .resizable()
+                            .frame(width: 48, height: 48)
+                    }
+                    .frame(width: 82)
                     
-                    Text("\(modelData.cardPacks[cardPackIndex].packDescription)")
-                        .font(.custom("Lato-Regular", size: 16))
-                        .foregroundColor(Color(hex: "636363"))
+                    Divider()
+                        .background(Color(hex: "f5f5f5"))
+                        .opacity(1.0)
+                    
+                    VStack(alignment: .leading) {
+                        Text("\(modelData.cardPacks[cardPackIndex].packName)")
+                            .padding(.bottom, 10)
+                            .font(.custom("Lato-Bold", size: 20))
+                            .foregroundColor(Color(hex: "373737"))
+                        
+                        Text("\(modelData.cardPacks[cardPackIndex].packDescription)")
+                            .font(.custom("Lato-Regular", size: 16))
+                            .foregroundColor(Color(hex: "636363"))
+                    }
+                    .padding(.leading, 20)
+                    .padding(.trailing, 20)
                 }
-                .padding(.leading, 20)
-                .padding(.trailing, 20)
+                .frame(width: 400, height: 157)
             }
-            .frame(width: screenWidth * 0.9, height: 157)
         }
+        .frame(height: 157)
+        .padding(.leading, 20)
+        .padding(.trailing, 20)
     }
 }
 
