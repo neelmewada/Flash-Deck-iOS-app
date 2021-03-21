@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A view that represents a single face of a Flash Card. Used to display both front and back face
 struct FlashCardFace: View {
     @Binding var flipped: Bool
     
@@ -40,6 +41,8 @@ struct FlashCardFace: View {
     }
 }
 
+/// A view that represents a singular Flash Card.
+/// It manages both the front and back face of each card
 struct FlashCardView: View {
     @EnvironmentObject var modelData: ModelData
     @State private var flipped = false

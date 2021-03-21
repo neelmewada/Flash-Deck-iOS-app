@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-
+/// A view that displays a horizontal list of Flash Cards
 struct FlashCardList: View {
     @EnvironmentObject var modelData: ModelData
     @State var curIndex: CGFloat = 0

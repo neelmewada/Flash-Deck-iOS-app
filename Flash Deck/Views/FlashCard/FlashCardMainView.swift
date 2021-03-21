@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-
+/// The view that is displayed in a new page when user clicks on a card pack
 struct FlashCardMainView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @EnvironmentObject var modelData: ModelData

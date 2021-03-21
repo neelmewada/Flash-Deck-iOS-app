@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		562BF25F25F8A44C00BC7064 /* CardCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562BF25E25F8A44C00BC7064 /* CardCounter.swift */; };
 		5659759B25FF3DAC0087CAB5 /* UserCardPacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659759A25FF3DAC0087CAB5 /* UserCardPacksView.swift */; };
-		5659759F25FF89950087CAB5 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659759E25FF89950087CAB5 /* HomeTabView.swift */; };
 		56639CAC25F78EFC00EA51E5 /* cardsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 56639CAB25F78EFC00EA51E5 /* cardsData.json */; };
 		56639CB025F791AF00EA51E5 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56639CAF25F791AF00EA51E5 /* FlashCard.swift */; };
 		56639CB325F7923D00EA51E5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56639CB225F7923D00EA51E5 /* ModelData.swift */; };
@@ -42,7 +41,6 @@
 		3F82A55633B2FECADB1A2C00 /* Pods-Flash Deck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Deck.debug.xcconfig"; path = "Target Support Files/Pods-Flash Deck/Pods-Flash Deck.debug.xcconfig"; sourceTree = "<group>"; };
 		562BF25E25F8A44C00BC7064 /* CardCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCounter.swift; sourceTree = "<group>"; };
 		5659759A25FF3DAC0087CAB5 /* UserCardPacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardPacksView.swift; sourceTree = "<group>"; };
-		5659759E25FF89950087CAB5 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		56639CAB25F78EFC00EA51E5 /* cardsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cardsData.json; sourceTree = "<group>"; };
 		56639CAF25F791AF00EA51E5 /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
 		56639CB225F7923D00EA51E5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -106,14 +104,6 @@
 			path = FlashCard;
 			sourceTree = "<group>";
 		};
-		5659759D25FF897C0087CAB5 /* HomeTabView */ = {
-			isa = PBXGroup;
-			children = (
-				5659759E25FF89950087CAB5 /* HomeTabView.swift */,
-			);
-			path = HomeTabView;
-			sourceTree = "<group>";
-		};
 		56639CAE25F7918E00EA51E5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,8 +116,6 @@
 		56639CB525F7932400EA51E5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5668D2C625FFAE4D00C60635 /* Marketplace */,
-				5659759D25FF897C0087CAB5 /* HomeTabView */,
 				5659759725FF3D630087CAB5 /* FlashCard */,
 				5671DDDF25F78A8300F36448 /* ContentView.swift */,
 				56EF536325FC7C8D000029E0 /* CardPackItemView.swift */,
@@ -161,13 +149,6 @@
 				56639CC825F7B70D00EA51E5 /* Lato-ThinItalic.ttf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		5668D2C625FFAE4D00C60635 /* Marketplace */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Marketplace;
 			sourceTree = "<group>";
 		};
 		5671DDD125F78A8300F36448 = {
@@ -365,7 +346,6 @@
 				56639CB025F791AF00EA51E5 /* FlashCard.swift in Sources */,
 				5671DDDE25F78A8300F36448 /* Flash_DeckApp.swift in Sources */,
 				56639CBF25F79E8E00EA51E5 /* Extensions.swift in Sources */,
-				5659759F25FF89950087CAB5 /* HomeTabView.swift in Sources */,
 				56A5A6F725FD1DA100BCFE9B /* BurgerMenuView.swift in Sources */,
 				562BF25F25F8A44C00BC7064 /* CardCounter.swift in Sources */,
 			);

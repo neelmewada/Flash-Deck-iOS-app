@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Main Cards Pack View that is displayed on the Home screen
 struct UserCardPacksView: View {
     @EnvironmentObject var modelData: ModelData
     

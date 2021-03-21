@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A View displaying each Card Pack on the home screen
 struct CardPackItemView: View {
     @EnvironmentObject var modelData: ModelData
     var cardPackIndex: Int

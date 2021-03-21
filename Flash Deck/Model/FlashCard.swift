@@ -11,6 +11,8 @@ import SDWebImageSwiftUI
 
 import Firebase
 
+/// A data structure used to represent a Flash Card Pack.
+/// It has all the information about each flash card pack
 struct FlashCardPack: Hashable, Codable, Identifiable {
     var id: Int
     var packName: String
@@ -19,31 +21,11 @@ struct FlashCardPack: Hashable, Codable, Identifiable {
     var cards: [FlashCard]
     
     var icon: WebImage {
-        WebImage(url: URL(string: iconName))//"https://i.ibb.co/n7D7jW0/swift-logo.png"))
+        WebImage(url: URL(string: iconName))
     }
-    
-    /*var icon: Image {
-        let gsReference = ModelData.storage?.reference(forURL: "gs://flash-deck.appspot.com/card-pack-logos/\(iconName)")
-        var uiImage: UIImage? = nil
-        
-        gsReference?.getData(maxSize: 1 * 1024 * 1024) { (data, err) in
-            if let err = err {
-                print("Error while retrieving image: \(err.localizedDescription)")
-            } else {
-                print("Image retrieved Debug: \(data!.debugDescription)")
-                uiImage = UIImage(data: data!)
-            }
-        }
-        
-        if uiImage != nil {
-            return Image(uiImage: uiImage!)
-        }
-        
-        print("uiImage is nil")
-        return Image("gk-icon")
-    }*/
 }
 
+/// A data structure used to represent a single Flash Card.
 struct FlashCard: Hashable, Codable, Identifiable {
     var id: Int
     var cardPack: Int
