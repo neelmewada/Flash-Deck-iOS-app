@@ -7,20 +7,26 @@ Check out the video demo here: [Video Demo](https://youtu.be/Cqoqwse8bgw)
 ## Screenshots
 
 <div style="text-align: center;">
-<img src="https://i.ibb.co/72q4jhc/Simulator-Screen-Shot-i-Phone-11-2021-03-21-at-18-23-01.png" width=200 style="display: inline-block;"> <img src="https://i.ibb.co/VxLJPjF/Simulator-Screen-Shot-i-Phone-11-2021-03-21-at-18-23-18.png" width=200 style="display: inline-block; margin-left: 100px;">
+<img src="https://i.ibb.co/myTG0Th/App-Screenshot.png">
 </div>
 
 
 
-### Overview
---------
+## Overview
 
 - Made with the latest SwiftUI Framework using Xcode 12.
 - Integration with **Google Firebase**. Any modifications or additions made to the card packs in Firebase will be reflected in the app in Real-Time.
 - Modern UI/UX design
 - Smooth card animations
 - Flash Cards are divided into card packs based on their category.
-- I used Adobe XD for design and prototyping of this app. Below is the screenshot of my XD design:
+
+## Design/Prototyping
+
+I used Adobe XD for design and prototyping of this app. Below is the screenshot of my XD design:
+
+![](https://i.ibb.co/gvM1JBD/Screenshot-2021-03-23-at-6-15-02-PM.png)
+
+
 
 
 
