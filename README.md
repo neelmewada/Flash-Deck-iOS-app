@@ -56,7 +56,9 @@ The file and folder structure of the project:
 │   │   │   ├── FlashCardMainView.swift
 │   │   │   ├── FlashCardView.swift
 │   │   │   └── CardCounter.swift
-│   └──Helpers					# Folder containing Helper code
+│   └── Helpers					# Folder containing Helper code
+│   │   ├── Extensions.swift
+│   │   └── ScrollingStackModifier.swift
 ```
 
 <br>
