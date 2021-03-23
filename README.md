@@ -43,20 +43,20 @@ The file and folder structure of the project:
 ```bash
 ├── Flash Deck
 │   ├── Flash_DeckApp.swift      # Entry point of iOS app
-│   ├── Model						   # Data structures (MVVM architecture)
+│   ├── Model	  # Data structures (MVVM architecture)
 │   │   ├── FlashCard.swift		 # Data structure for Flash Cards
-│   │   ├── ModelData.swift     # Run-time data structure
-│   ├── Views
+│   │   ├── ModelData.swift    # Run-time data structure
+│   ├── Views   # Folder of all the views in the project
 │   │   ├── ContentView.swift     # The base View for the app
 │   │   ├── UserCardPacksView.swift   # Home page view showing list of card packs
 │   │   ├── CardPackItemView.swift
 │   │   ├── BurgerMenuView.swift
-│   │   └──FlashCard          # Folder of views related to flash cards
+│   │   └──FlashCard    # Folder of views related to flash cards
 │   │   │   ├── FlashCardList.swift
 │   │   │   ├── FlashCardMainView.swift
 │   │   │   ├── FlashCardView.swift
 │   │   │   └── CardCounter.swift
-│   └── Helpers					# Folder containing Helper code
+│   └── Helpers			# Folder containing Helper code
 │   │   ├── Extensions.swift
 │   │   └── ScrollingStackModifier.swift
 ```
