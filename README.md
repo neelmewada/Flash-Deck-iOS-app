@@ -20,11 +20,19 @@ Check out the video demo here: [Video Demo](https://youtu.be/Cqoqwse8bgw)
 - Smooth card animations
 - Flash Cards are divided into card packs based on their category.
 
-## Design/Prototyping
+## Design/Prototyping Process
 
-I used Adobe XD for design and prototyping of this app. Below is the screenshot of my XD design:
+I used Adobe XD for design and prototyping of this app. Below is the screenshot of my XD design.
 
 ![](https://i.ibb.co/gvM1JBD/Screenshot-2021-03-23-at-6-15-02-PM.png)
+
+
+## Build Process
+
+If you want to build this app yourself, then here are the requirements for the build:
+- Xcode 12
+- Firebase: Firebase Cloudstore is used to store and get Flash Cards in real time.
+- I've compiled the project on macOS Big Sur
 
 
 
