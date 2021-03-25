@@ -2,7 +2,7 @@
 
 A simple flash cards iOS app made in SwiftUI. Flash cards are really versatile study tool that can help you remember things quickly. Flash cards have two faces. Front face contains the prompt (question), and the answer/solution is on the back face.
 
-Check out the video demo here: [Video Demo](https://youtu.be/Cqoqwse8bgw)
+Check out the video demo here: **[Video Demo](https://youtu.be/Cqoqwse8bgw)**
 
 ## Screenshots
 
